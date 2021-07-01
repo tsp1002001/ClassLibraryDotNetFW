@@ -9,6 +9,8 @@ namespace ConsoleApp1NetFw
         {
             var text = "hello World!";
             Console.WriteLine(text.StartsWithUpper());
+
+            Console.WriteLine(StringLibrary.GetTimeObject());
         }
     }
 }
