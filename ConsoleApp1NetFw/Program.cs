@@ -11,6 +11,8 @@ namespace ConsoleApp1NetFw
             Console.WriteLine(text.StartsWithUpper());
 
             Console.WriteLine(StringLibrary.GetTimeObject());
+
+            StringLibrary.CreateSpreadsheetWorkbook();
         }
     }
 }
